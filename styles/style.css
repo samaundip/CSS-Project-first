@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Parkinsans:wght@300..800&family=Playwrite+HR+Lijeva:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{  background-image:url("../src/WhatsApp\ Image\ 2025-01-03\ at\ 19.16.55_677f5a35.jpg");
+       background-repeat:no-repeat ;
+       background-size: cover;
+       background-position: center;
+       height: 100vh; 
+       width: 100%; 
+      
+    }
+
+
+.overlap-container{ 
+    background-image:url("../src/WhatsApp\ Image\ 2025-01-03\ at\ 19.16.56_4b3eb694.jpg");
+       background-repeat:no-repeat ;
+       background-size: cover;
+       background-position: center;
+       margin: 50px auto;
+       /* padding: 20px ; */
+       height: 70%; 
+       width: 800px;
+       border: 3px solid black;
+       border-radius: 10px;
+}
+
+.header-container{
+    background-color: white;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    margin: 0px auto;
+    padding: 0px; 
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.logo1{ display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      height: 100%;
+}
+.nav-items { display: flex;
+             justify-content:space-evenly;
+             justify-items:left; 
+        
+              text-align: left;
+              height: 80px;
+              width: 65%;
+             
+         }
+
+.nav-items > a{  display: flex;  
+              justify-content: space-between;
+              text-align: center;
+              margin: 20px;
+              width: 100%;
+              
+              text-decoration: none;
+              text-align: center;
+              color: black;
+              font-size: 20px;
+              font-weight: bold;
+              cursor: pointer;
+            }
+ .nav-items > a:hover{
+                       background-color: blueviolet;
+    
+ }
+
+
+
+  button { background-color: rgb(10, 9, 9);
+           color: white;
+           border: none;
+           margin-left: 10px;
+           padding: 10px 10px;
+           font-size: 15px;
+           font-weight: bold;
+           text-align: center;
+           cursor: pointer;
+
+  }
+  
+main >.text>h1{  padding: 80px 10px  0 10px;
+              font-size: 30px;
+              color: white;
+}
+              
+main >.text>p{  padding: 5px 20px ;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+} 
+
+main >.text> button{  padding: 10px 15px ;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      flex: 50%;
+      max-width: 50%;
+      background:skyblue ;
+    }
+  }
