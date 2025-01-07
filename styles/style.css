@@ -89,7 +89,7 @@ body{  background-image:url("../src/WhatsApp\ Image\ 2025-01-03\ at\ 19.16.55_67
 
 
 
-  button { background-color: rgb(10, 9, 9);
+  .button > button { background-color: rgb(10, 9, 9);
            color: white;
            border: none;
            margin-left: 10px;
